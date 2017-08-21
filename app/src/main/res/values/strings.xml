@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JYSearch</string>
+    <string name="EngineName">Engine name</string>
+    <string name="EngineBaseURL">Engine base URL</string>
+    <string name="AddEngine">Add new engine</string>
+    <string name="add">Add</string>
+    <string name="Setting">Setting</string>
+    <string name="KeyWord">Key word</string>
+    <string name="ChooseEngine">Choose engine</string>
+    <string name="EnableNotificationBar">Enable notification bar</string>
+    <string name="Search">Search</string>
+    <string name="Using">Using</string>
+    <string name="SearchHistory">Search history</string>
+    <string name="Option">Option</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="SetDefault">Set as default</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JYSearch</string>
+    <string name="EngineName">搜索引擎名称</string>
+    <string name="EngineBaseURL">基本URL</string>
+    <string name="AddEngine">添加新的引擎</string>
+    <string name="add">添加</string>
+    <string name="Setting">设置</string>
+    <string name="KeyWord">搜索内容</string>
+    <string name="ChooseEngine">选择引擎</string>
+    <string name="EnableNotificationBar">启用通知栏快捷方式</string>
+    <string name="Search">搜索</string>
+    <string name="Using">正在使用</string>
+    <string name="SearchHistory">历史搜索</string>
+    <string name="Option">选项</string>
+    <string name="Edit">编辑</string>
+    <string name="Delete">删除</string>
+    <string name="SetDefault">设为默认</string>
+</resources>

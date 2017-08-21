@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pw.janyo.jysearch">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name="pw.janyo.jysearch.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="pw.janyo.jysearch.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="pw.janyo.jysearch.SettingActivity"/>
+        <activity android:name="pw.janyo.jysearch.JumpActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.PROCESS_TEXT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SearchActivity"
+            android:theme="@style/SearchActivityTheme"
+            android:label="@string/Search"/>
+
+        <service android:name="pw.janyo.jysearch.ClipboardListenerService"></service>
+    </application>
+
+</manifest>
